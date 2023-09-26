@@ -1,0 +1,75 @@
+.ser-bg{
+    background-image: url(/public/images/service/section\ 1.jpg);
+}
+.ser{
+    @include media-min-lg{
+    background: linear-gradient(
+      to right,
+      #ececec 0%,
+      #ececec 55%,
+      black 55%,
+      black 100%
+    );
+}
+}
+.para-2{
+    font-size: 19px !important;
+    color: #515151 !important;
+}
+.service-img{
+    .images{
+        height: 80vh !important;
+    }
+    .center-img{
+     margin-top: -45%;
+     margin-left: -8%;
+     height: 40% !important;
+     width: 60% !important;
+    }
+    
+}
+.offer-text{
+    font-size: 18.4px !important;
+}
+.head{
+    font-size: 35px !important;
+    @include media-min-lg{
+        font-size: 70px !important;
+    }
+}
+.para-3{
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    @include media-min-md{
+        font-size: 22px !important;
+    }
+}
+.btn-2{
+    height:60px !important;
+    width: 60px !important;
+    border-radius: 50%;
+    background: #E30F0F!important;
+}
+.font1{
+    font-size: 21px !important;
+}
+.cnt{
+        transform: rotate(180deg);
+        writing-mode: vertical-rl;
+        letter-spacing: 15px;
+}
+.ps{
+    // padding-left: 1rem !important;
+    @include media-min-lg{
+        padding-left: 2.2rem !important;
+    }
+}
+.offer{
+    background-image: url(/public/images/service/section\ 2.jpg);
+}
+.our{
+    font-size: 42px !important;
+}
+.fs9{
+    font-size: 22px !important;
+}

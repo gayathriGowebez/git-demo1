@@ -1,0 +1,60 @@
+.bg{
+    background-image: url(/public/images/price/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.price-bg{
+    background-image: url(/public/images/price/section\ 1.jpg);
+}
+.bg-price{
+    background-image: url(/public/images/price/Section\ 2.jpg);
+}
+.price-txt{
+    color:#C7C7C7;
+    .txt{
+        font-size:18.7px !important;
+    }
+}
+.brdr{
+    border-top: 1px dotted #C7C7C7;
+}
+.price-off{
+    background-image: url(/public/images/price/section\ 3.jpg);
+    p{
+        font-size: 30px !important;
+        font-weight: 600 !important;
+        @include media-min-md{
+            font-size: 60px !important;
+            font-weight: 600 !important;
+        }
+    }
+    .pb{
+        padding-bottom: 2rem !important;
+        @include media-min-md{
+            padding-bottom: 15rem !important;
+        }
+    }
+}
+.fs-10{
+    font-size: 18px !important;
+}
+.amt{
+    font-size: 14px !important;
+}
+.btn-10{
+    font-size: 12px !important;
+    background-color: #FB004B;
+    border-radius: 5px;
+}
+.cent{
+    padding-left: 5rem !important;
+    
+}
+.txt-clr{
+    color: #E78C8C;
+}
+.pack{
+    font-size: 2.8rem !important;
+}

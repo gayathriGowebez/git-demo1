@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include media-min-md{
+        // height: 100vh;
+    }  
+}
+button{
+    font-family: 'Varela';
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+.fit{
+    @include media-min-md{
+        margin-top: -12% !important;
+    }
+   
+    font-weight: 400 !important;
+    color: rgb(47, 45, 45) !important;
+}
+.fs{
+    margin-top: -5%;
+    font-size: 80px !important;
+    letter-spacing: 15px !important;
+}
+.btn-text{
+    font-size: 14px !important;
+}
+.w-s{
+    word-spacing: 3px !important;
+}
+.fs-6{
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    @include media-min-md{
+        font-size: 50px !important;
+    }
+}
+.text{
+    text-align: justify;
+}
+.b-d{
+    border-bottom: 1px dotted grey !important;
+}
+.clr{
+    background-color: rgb(255,255, 255,0.9);
+}
+.fs8{
+  font-size: 15px !important;
+  font-family: 'Varela Round', sans-serif !important;
+
+}
+.b{
+    padding-bottom: 5rem !important;
+}
+.ff{
+    font-family: 'Varela Round', sans-serif !important;
+ 
+}
+.title{
+    font-family: 'Cinzel' !important;
+    font-size: 30px !important;
+    font-weight: bolder!important;
+    @include media-min-md{
+        font-size: 80px !important;
+    }
+}
+.avatar{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.ms{
+    margin-left: 2rem !important;
+    
+}
+.brd{
+    border-bottom: 1px dotted #919191 !important;
+}
+

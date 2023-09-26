@@ -1,0 +1,17 @@
+.header-bg{
+    background-image: url(/public/images/section\ 1.jpg);
+    h1{
+        font-family: 'Cinzel';
+       font-size: 25px !important;
+       @include media-min-md{
+        font-size: 70px !important;
+       }
+    }
+    p{
+        font-family: 'Times New Roman';  
+        letter-spacing: 3px !important;
+        @include media-min-md{
+            font-size: 40px !important;
+        }
+    }
+}
