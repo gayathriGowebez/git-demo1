@@ -7,9 +7,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    @include media-min-md{
-        // height: 100vh;
-    }  
 }
 button{
     font-family: 'Varela';
